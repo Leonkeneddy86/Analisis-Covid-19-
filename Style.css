@@ -2,3 +2,9 @@ body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
+.graphics1 {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+}
