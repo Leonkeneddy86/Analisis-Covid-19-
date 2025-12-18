@@ -86,6 +86,55 @@
     </div>
 </section>
 <img class="graphics1" src="/img/heatmap.png" alt="">
+<div>
+    <ul class="list-group">
+<li class="list-group-item active" aria-current="true">La escala: Los números van de 0 a 1</li>
+<li class="list-group-item">Un 0 significa que no hay ninguna relación.</li>
+<li class="list-group-item">Un 1 indica una correlación perfecta.</li>
+</ul>
+</div>
+<div>
+<section class="mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="p-4 border-start border-4 border-primary bg-light shadow-sm">
+                <h2 class="h4 text-primary mb-3">
+                    <i class="fas fa-chart-line me-2"></i>Hallazgo Principal: Contagios vs. Fallecimientos
+                </h2>
+                <p class="lead mb-0">
+                    En nuestro análisis, la relación entre los nuevos contagios <code>(positiveIncrease)</code> 
+                    y los nuevos fallecimientos <code>(deathIncrease)</code> tiene un valor de <strong>0.61</strong>.
+                </p>
+                <p>
+                    <strong>La columna positiveScore no nos aportaba mucha información por tanto la eliminamos.</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+    <ul class="list-group shadow-sm">
+  <li class="list-group-item list-group-item-primary d-flex align-items-center">
+    <i class="fas fa-info-circle me-3"></i>
+    <strong>Interpretación del Coeficiente (0.61)</strong>
+  </li>
+  <li class="list-group-item">
+    <i class="fas fa-chart-line text-success me-2"></i>
+    <strong>Tendencia clara:</strong> Cuando los contagios suben, los fallecimientos tienden a subir poco después, confirmando una conexión directa entre ambas variables. 📈
+  </li>
+  <li class="list-group-item">
+    <i class="fas fa-microscope text-warning me-2"></i>
+    <strong>Relación parcial:</strong> El hecho de que no sea un "1" nos indica que existen otros factores críticos en juego.
+  </li>
+  <li class="list-group-item ps-5 text-muted small">
+    <i class="fas fa-hospital-user me-2"></i>Mejora en los tratamientos médicos y protocolos clínicos.
+  </li>
+  <li class="list-group-item ps-5 text-muted small">
+    <i class="fas fa-bed me-2"></i>Capacidad de respuesta y saturación de los sistemas hospitalarios.
+  </li>
+  <li class="list-group-item ps-5 text-muted small">
+    <i class="fas fa-users me-2"></i>Cambios en el perfil demográfico (edad) de los contagiados en distintas etapas.
+  </li>
+</ul>
+</section>
 </body>
 <footer class="text-center bg-light py-4">
     <div class="container mb-3">
